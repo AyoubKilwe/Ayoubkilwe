@@ -9,7 +9,7 @@
 [![Email](https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:ayoubkilwe@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ayoub-kilwe-51b40a390)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AyoubKilwe)
-[![Profile Views](https://komarev.com/ghpvc/?username=AyoubKilwe&style=for-the-badge&color=0ea5e9&label=Views)](https://github.com/AyoubKilwe)
+[![Followers](https://img.shields.io/github/followers/AyoubKilwe?style=for-the-badge&logo=github&label=FOLLOWERS&color=0ea5e9)](https://github.com/AyoubKilwe?tab=followers)
 
 </div>
 
