@@ -2,7 +2,7 @@
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f172a,50:1e3a5f,100:0ea5e9&height=180&section=header&text=Ayoub%20Kilwe&fontSize=56&fontColor=ffffff&animation=fadeIn&fontAlignY=40" width="100%"/>
 
-<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Full-Stack+Software+Engineer;MERN+%7C+TypeScript+%7C+React+Native;Building+AI-powered+products" alt="Typing SVG" /></a>
+<a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=22&duration=3000&pause=1000&color=38BDF8&center=true&vCenter=true&width=600&lines=Software+Engineer;B.Sc.+Software+Engineering+%7C+Amoud+University;Full-Stack+%7C+Mobile+%7C+Databases+%7C+AI;Any+language%2C+any+stack+%E2%80%94+I+build+it" alt="Typing SVG" /></a>
 
 <br/>
 
@@ -19,11 +19,13 @@
 
 ```typescript
 const ayoub = {
-  role:     "Full-Stack Software Engineer",
-  location: "Borama, Somaliland",
-  stack:    ["TypeScript", "React", "Node.js", "MongoDB", "React Native"],
-  focus:    ["AI-powered platforms", "Multi-role systems", "Mobile apps"],
-  motto:    "Solve real problems with clean, scalable code."
+  role:       "Software Engineer",
+  education:  "B.Sc. Software Engineering — Amoud University",
+  location:   "Borama, Somaliland",
+  languages:  ["JavaScript", "TypeScript", "C#", "Python", "Java", "SQL"],
+  databases:  ["MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase"],
+  builds:     ["Web platforms", "Mobile apps", "REST APIs", "AI-powered systems"],
+  mindset:    "Language-agnostic. Pick the right tool, ship the right product."
 };
 ```
 
@@ -33,9 +35,17 @@ const ayoub = {
 
 <div align="center">
 
-<img src="https://skillicons.dev/icons?i=html,css,js,ts,react,vue,tailwind,vite&perline=8" />
-<br/>
-<img src="https://skillicons.dev/icons?i=nodejs,express,cs,dotnet,mongodb,git,postman,figma&perline=8" />
+**Languages**<br/>
+<img src="https://skillicons.dev/icons?i=js,ts,cs,py,java,html,css&perline=7" />
+
+**Frameworks & Runtime**<br/>
+<img src="https://skillicons.dev/icons?i=react,vue,tailwind,vite,nodejs,express,dotnet&perline=7" />
+
+**Databases**<br/>
+<img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase,sqlite&perline=7" />
+
+**Tools**<br/>
+<img src="https://skillicons.dev/icons?i=git,github,postman,figma,vscode,linux&perline=7" />
 
 </div>
 
