@@ -22,8 +22,9 @@ const ayoub = {
   role:       "Software Engineer",
   education:  "B.Sc. Software Engineering — Amoud University",
   location:   "Borama, Somaliland",
-  languages:  ["JavaScript", "TypeScript", "C#", "Python", "Java", "SQL"],
+  languages:  ["JavaScript", "TypeScript", "C#", "Python", "Java", "Dart", "SQL"],
   databases:  ["MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase"],
+  frameworks: ["Next.js", "React", "React Native", "Flutter", "Node.js", ".NET"],
   builds:     ["Web platforms", "Mobile apps", "REST APIs", "AI-powered systems"],
   mindset:    "Language-agnostic. Pick the right tool, ship the right product."
 };
@@ -36,10 +37,13 @@ const ayoub = {
 <div align="center">
 
 **Languages**<br/>
-<img src="https://skillicons.dev/icons?i=js,ts,cs,py,java,html,css&perline=7" />
+<img src="https://skillicons.dev/icons?i=js,ts,cs,py,java,dart,html,css&perline=8" />
 
 **Frameworks & Runtime**<br/>
-<img src="https://skillicons.dev/icons?i=react,vue,tailwind,vite,nodejs,express,dotnet&perline=7" />
+<img src="https://skillicons.dev/icons?i=react,nextjs,vue,tailwind,vite,nodejs,express,dotnet&perline=8" />
+
+**Mobile**<br/>
+<img src="https://skillicons.dev/icons?i=flutter,dart,react&perline=8" />
 
 **Databases**<br/>
 <img src="https://skillicons.dev/icons?i=mongodb,mysql,postgres,firebase,sqlite&perline=7" />
@@ -55,8 +59,8 @@ const ayoub = {
 
 ```mermaid
 flowchart LR
-    W[⚛️ React Web] --> API
-    M[📱 React Native] --> API
+    W[⚛️ React / Next.js Web] --> API
+    M[📱 React Native / Flutter] --> API
     API[⚙️ Node.js / Express<br/>JWT · RBAC] --> DB[(🍃 MongoDB)]
     API --> AI[🤖 Gemini AI]
 
