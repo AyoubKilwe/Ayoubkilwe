@@ -58,17 +58,61 @@ const ayoub = {
 ## 🏗️ Architecture I Build
 
 ```mermaid
-flowchart LR
-    W[⚛️ React / Next.js Web] --> API
-    M[📱 React Native / Flutter] --> API
-    API[⚙️ Node.js / Express<br/>JWT · RBAC] --> DB[(🍃 MongoDB)]
-    API --> AI[🤖 Gemini AI]
+flowchart TB
+    subgraph CLIENT["Client Layer"]
+        direction LR
+        WEB["Web App<br/>React · Next.js"]
+        MOB["Mobile App<br/>React Native · Flutter"]
+    end
 
-    style W fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-    style M fill:#0f172a,stroke:#38bdf8,color:#e2e8f0
-    style API fill:#0f172a,stroke:#a78bfa,color:#e2e8f0
-    style DB fill:#0f172a,stroke:#4ade80,color:#e2e8f0
-    style AI fill:#0f172a,stroke:#f59e0b,color:#e2e8f0
+    subgraph API["API Layer"]
+        direction LR
+        GW["REST API<br/>Node.js · Express · .NET"]
+        AUTH["Auth & Security<br/>JWT · RBAC · Rate limiting"]
+    end
+
+    subgraph SERVICE["Service Layer"]
+        direction LR
+        BIZ["Business Logic<br/>Orders · Users · Payments"]
+        RT["Real-time<br/>WebSockets · Notifications"]
+    end
+
+    subgraph AI["AI Layer"]
+        direction LR
+        LLM["LLM Providers<br/>Gemini · Groq · Llama"]
+        AGENT["AI Assistant<br/>Chatbot · Recommendations"]
+    end
+
+    subgraph DATA["Data Layer"]
+        direction LR
+        DB[("Databases<br/>MongoDB · PostgreSQL · MySQL")]
+        CACHE[("Cache & Storage<br/>Redis · Firebase")]
+    end
+
+    WEB & MOB -->|HTTPS · JSON| GW
+    GW --> AUTH --> BIZ
+    BIZ --> RT
+    BIZ --> AGENT --> LLM
+    BIZ --> DB
+    BIZ --> CACHE
+
+    classDef client fill:#0f172a,stroke:#38bdf8,stroke-width:2px,color:#e2e8f0
+    classDef api fill:#0f172a,stroke:#a78bfa,stroke-width:2px,color:#e2e8f0
+    classDef svc fill:#0f172a,stroke:#f472b6,stroke-width:2px,color:#e2e8f0
+    classDef ai fill:#0f172a,stroke:#f59e0b,stroke-width:2px,color:#e2e8f0
+    classDef data fill:#0f172a,stroke:#4ade80,stroke-width:2px,color:#e2e8f0
+
+    class WEB,MOB client
+    class GW,AUTH api
+    class BIZ,RT svc
+    class LLM,AGENT ai
+    class DB,CACHE data
+
+    style CLIENT fill:#0b1220,stroke:#38bdf8,color:#94a3b8
+    style API fill:#0b1220,stroke:#a78bfa,color:#94a3b8
+    style SERVICE fill:#0b1220,stroke:#f472b6,color:#94a3b8
+    style AI fill:#0b1220,stroke:#f59e0b,color:#94a3b8
+    style DATA fill:#0b1220,stroke:#4ade80,color:#94a3b8
 ```
 
 <br/>
