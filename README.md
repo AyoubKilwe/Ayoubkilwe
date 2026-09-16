@@ -74,8 +74,8 @@ flowchart LR
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=AyoubKilwe&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&icon_color=38bdf8&include_all_commits=true" alt="GitHub Stats"/>
-<img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=AyoubKilwe&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=38bdf8&langs_count=6" alt="Top Languages"/>
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=AyoubKilwe&theme=tokyonight" alt="GitHub Stats"/>
+<img height="180" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=AyoubKilwe&theme=tokyonight" alt="Top Languages"/>
 
 <br/><br/>
 
