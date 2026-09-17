@@ -23,7 +23,7 @@
 ```typescript
 const ayoub = {
   role:       "Software Engineer",
-  location:   "Borama, Somaliland",
+  location:   "Hargeisa, Somaliland",
   languages:  ["JavaScript", "TypeScript", "Python", "Dart", "SQL"],
   databases:  ["MongoDB", "MySQL", "PostgreSQL", "SQL Server", "Firebase"],
   frameworks: ["Next.js", "React", "React Native", "Flutter", "Node.js", ".NET"],
@@ -131,6 +131,16 @@ flowchart TB
 <br/>
 
 ## 🎓 Certifications
+
+<div align="center">
+<a href="https://coursera.org/verify/specialization/TZUVB29D9IEH">
+<img src="https://raw.githubusercontent.com/AyoubKilwe/certifications/main/meta-full-stack-developer/certificate.png" alt="Meta Full Stack Developer Certificate - Ayoub Kilwe" width="720"/>
+</a>
+<br/>
+<sub><b>Meta Full Stack Developer Specialization</b> · 10 courses · Meta via Coursera · Sep 2026 · <a href="https://coursera.org/verify/specialization/TZUVB29D9IEH">Verify</a></sub>
+</div>
+
+<br/>
 
 | Credential | Issuer | Verify |
 |:--|:--|:--|
