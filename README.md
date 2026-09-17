@@ -130,6 +130,18 @@ flowchart TB
 
 <br/>
 
+## 🎓 Certifications
+
+| Credential | Issuer | Verify |
+|:--|:--|:--|
+| [**Meta Full Stack Developer** (10-course Specialization)](https://github.com/AyoubKilwe/certifications#-meta-full-stack-developer-front-end--back-end-from-scratch) | Meta · Coursera · Sep 2026 | [Verify](https://coursera.org/verify/specialization/TZUVB29D9IEH) |
+| [**Meta Front-End Developer** Professional Certificate](https://github.com/AyoubKilwe/certifications#-meta-front-end-developer-professional-certificate) | Meta · Coursera · Sep 2026 | [Verify](https://coursera.org/verify/professional-cert/691S3F2EBP7V) |
+| [**Programming with JavaScript**](https://github.com/AyoubKilwe/certifications#-programming-with-javascript-meta) | Meta · Coursera · Aug 2026 | [Verify](https://coursera.org/verify/UO1WSON17KU9) |
+
+[![Certificates](https://img.shields.io/badge/View_all_certificates-Meta_%C2%B7_Coursera-0668E1?style=for-the-badge&logo=meta&logoColor=white)](https://github.com/AyoubKilwe/certifications)
+
+<br/>
+
 ## 📊 GitHub Stats
 
 <div align="center">
